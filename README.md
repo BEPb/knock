@@ -67,8 +67,6 @@ sudo iptables -A INPUT -p tcp --dport 60636 -j REJECT
 sudo iptables -D INPUT -p tcp --dport 60636 -j REJECT
 ```
 
-
-
 ### Сборка
 
 #### Проверка
