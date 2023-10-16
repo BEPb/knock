@@ -1,5 +1,5 @@
 AC_PREREQ(2.60)
-AC_INIT([knock], [0.8], [https://github.com/BEPb/knock/issues])
+AC_INIT([knock], [1.0], [https://github.com/BEPb/knock/issues])
 AM_INIT_AUTOMAKE([dist-xz no-dist-gzip foreign subdir-objects])
 
 AC_CONFIG_HEADER([config.h])
