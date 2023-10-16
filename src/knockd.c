@@ -503,7 +503,7 @@ void usage(int exit_code) {
 
 void ver() {
 	printf("knockd %s\n", version);
-	printf("Copyright (C) 2004-2012 Judd Vinet <jvinet@zeroflux.org>\n");
+	printf("Copyright (C) 2023 BEPb\n");
 	exit(0);
 }
 

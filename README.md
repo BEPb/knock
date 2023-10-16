@@ -32,10 +32,18 @@ sudo apt-get install autoconf
 ```
 После ввода команды sudo apt-get install ..., вам может потребоваться ввести пароль администратора для подтверждения 
 установки. После завершения установки вы сможете использовать libpcap и autoconf в вашей системе 
+Теперь установим git и сборщики build-essential и gcc:
+```commandline
+sudo apt-get install git
+sudo apt-get install build-essential
+sudo apt-get install gcc make
+```
 
 #### Установка
 Затем выполните следующее:
 ```commandline
+git clone https://github.com/BEPb/knock
+cd knock
 autoreconf -fi
 ./configure --prefix=/usr/local
 make
